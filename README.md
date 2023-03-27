@@ -27,11 +27,11 @@ npm i express
 
 Type the following command in your termimal: mysql -u root -p -- connect to your database and then run:
 
-source schema.sql
+db/source schema.sql
 
 Quit mySQL shell. Run the following command to seed the files:
 
-npm run seed.
+npm run seed
 
 Then run:
 
